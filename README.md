@@ -47,3 +47,22 @@ Run all the above:
 ```
 $ kitchen test
 ```
+
+### Integration tests with **inspec**
+They are not like unit tests.
+They test working machine, not the recipe
+
+### Unit test (in Chef) and Recipe
+A unit test in chef is similar to unit tests in Python.
+They test single units of code.
+In chef, that refers to checking if something exists in the recipes.
+
+running unit tests
+```
+$ chef exec rspec
+```
+
+
+
+
+### Recipes
